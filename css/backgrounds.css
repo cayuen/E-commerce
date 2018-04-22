@@ -1,0 +1,34 @@
+#background-1 { /* home page */
+	background-image: url(../img/background-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+}
+
+#background-2 { /* about-page */
+	background-image: url(../img/background-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+}
+
+.background-3 { /* all other pages */
+	background-color: #d3d3d3;
+}
+
+#background-1 span {
+	border: white solid 3px;
+	padding: 5px;
+}
+
+#background-2 span {
+	border: white solid 3px;
+	padding: 5px;
+}
+
+.background-3 span {
+	border: white solid 3px;
+	padding: 5px;
+}

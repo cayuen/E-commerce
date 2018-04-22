@@ -1,0 +1,92 @@
+body, html {
+	height: 100%;
+}
+
+*/
+
+/* --------------- HEADER --------------- */
+header {
+	height: 450px;
+}
+
+.logo img{
+	height: 50px;
+	float: left;
+	margin: 5px 20px 10px 10px;
+	height: 50px;
+}
+
+nav {
+	margin-top: 0;
+	margin-right: 20px;
+	float: right;
+}
+
+nav a {
+	display: inline-block;
+	margin-left: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	float: right;
+	margin-top: 20px;
+}
+
+nav a:hover {
+	color: black;
+}
+
+/* --------------- PRODUCT TABLE --------------- */
+
+#product-table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#product-table td, #product-table th {
+    border: none;
+    padding: 8px;
+    text-align: center;
+}
+
+#product-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
+
+#product-table td img {
+	height: 200px;
+}
+
+.zoom {
+    display: inline-block;
+    margin: 10px;
+     -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.zoom:hover {
+    position: relative;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index: 1000;
+}
+
+/* --------------- ITEM DETAIL TABLE --------------- */
+
+#item-details {
+	border-collapse: collapse;
+    width: 70%;
+}
+
+#item-details img {
+	height: 300px;
+	padding-top: 30px;
+}
