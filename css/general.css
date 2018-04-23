@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover {
-	color: black;
+	color: #B0B0B0;
 }
 
 /* --------------- PRODUCT TABLE --------------- */
@@ -47,6 +47,7 @@ nav a:hover {
     border: none;
     padding: 8px;
     text-align: center;
+    color: #FFA500;
 }
 
 #product-table th {
