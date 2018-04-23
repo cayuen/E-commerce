@@ -1,6 +1,5 @@
 * {	font-family: "Calibri", sans-serif;
 	margin: auto;
-	color: white;
 }
 
 .small-text {
@@ -51,11 +50,11 @@ h2 { /* Section titles */
 	text-transform: uppercase;;
 }
 
-.white-font {
+.white {
 	color: white;
 }
 
-.orange-font {
+.orange {
 	color: #FFA500;
 }
 
@@ -64,6 +63,15 @@ h2 { /* Section titles */
 	text-align: center;
 	font-size: 14px;
 	padding: 10px 0px 20px 0px;
+}
+
+
+ul {
+	padding-left: 35%;
+}
+
+ul li {
+	padding-left: 40px;
 }
 
 
