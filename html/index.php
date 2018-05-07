@@ -5,19 +5,12 @@
 		<link rel="stylesheet" type="text/css" href="../css/backgrounds.css">
 		<link rel="stylesheet" type="text/css" href="../css/text.css">
 	</head>
-
 	<div id="background-1">
 		<!-- .................. HEADER ............... -->
 		<header>
-			<div class="logo">
-				<a href="index.html"><img src="../img/logo.png"></a>
-			</div>
 			<nav>
-				<a class="white" href="cart.html">Cart</a>
-				<a class="white" href="products.html">Products</a>
-				<a class="white" href="team.html">Team</a>
-				<a class="white" href="about.html">About</a>
-			</nav> 
+				<?php include 'nav-white.php';?>
+			</nav>
 		</header>
 		<!-- .................. CONTENT ............... -->
 		<section>

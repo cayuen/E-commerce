@@ -9,15 +9,9 @@
 	<div class="background-3">
 		<!-- .................. HEADER ............... -->
 		<header>
-			<div class="logo">
-				<a href="index.html"><img src="../img/logo.png"></a>
-			</div>
 			<nav>
-				<a class="orange" href="cart.html">Cart</a>
-				<a class="orange" href="products.html">Products</a>
-				<a class="orange" href="team.html">Team</a>
-				<a class="orange" href="about.html">About</a>
-			</nav> 
+				<?php include 'nav-orange.php';?>
+			</nav>
 		</header>
 
 		<!-- .................. CONTENT ............... -->

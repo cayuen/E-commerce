@@ -9,14 +9,8 @@
 	<div id="background-2">
 		<!-- .................. HEADER ............... -->
 		<header>
-			<div class="logo">
-				<a href="index.html"><img src="../img/logo.png"></a>
-			</div>
 			<nav>
-				<a class="white" href="cart.html">Cart</a>
-				<a class="white" href="products.html">Products</a>
-				<a class="white" href="team.html">Team</a>
-				<a class="white" href="about.html">About</a>
+				<?php include 'nav-white.php';?>
 			</nav>
 		</header>
 
