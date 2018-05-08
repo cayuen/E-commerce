@@ -7,27 +7,33 @@
 	</head>
 
 	<div class="background-3">	
-		<!-- .................. HEADER ............... -->
+		<!-- .................. PHP HEADER ............... -->
 		<header>
 			<nav>
 				<?php include 'nav-orange.php';?>
 			</nav>
 		</header>
 
-		<!-- .................. CONTENT ............... -->
-		<section>
-			<p class="page-title orange"><span>BARE GOLDEN</span></p>
-			
-			<!-- Display of item (left: picture, right: description and form) -->
-			<table id="item-details"> <!-- Stored in a 1 x 2 table -->
-				<tr>
-					<td>
-						<img src = "../img/places-2.png"></a>
-					</td>
-					<td>
-						Printed on 1/4" thick poster with a glossy finish.<br>
-						$18.99<br>
-						24" x 36"<br>
+		<!-- .................. PHP DATA ............... -->
+		<?php require_once 'connect_db.php';
+		$result = mysqli_query($conn,"SELECT * FROM Products WHERE id = 6");
+		while($row = mysqli_fetch_array($result))
+		{
+			echo '<section>' .
+				"<p class='page-title orange'><span>" . $row['name'] . '</span></p>' .
+				"<table id='item-details'>" .
+				"<tr>" .
+				"<td>" .
+				"<img src = '../img/places-2.png'>" .
+				"</td>" .
+				"<td>" .
+				"<br><br><br>" .
+				"<p>" . $row['description'] .
+				"<br>" . $row['size'] .
+				"<br>" . $row['price'] . "</p>";
+		}
+		mysqli_close($con);
+		?>
 
 						<!-- Drop down for size -->
 
