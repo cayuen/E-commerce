@@ -1,8 +1,8 @@
 <?php
-$servername = "<servername>";
-$username = "<username>";
-$password = "<password>";
-$dbname = "<dbname>";
+$servername = "matt-smith-v4";
+$username = "inf124db063";
+$password = "wfnt59hFDjjZ";
+$dbname = "inf124db063";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -12,13 +12,13 @@ if ($conn->connect_error) {
 } 
 
 // sql to create table
-$sql = "CREATE TABLE MyGuests (
-id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-firstname VARCHAR(30) NOT NULL,
-lastname VARCHAR(30) NOT NULL,
-email VARCHAR(50),
-reg_date TIMESTAMP
-)";
+$sql = "CREATE TABLE Products (
+	id INT(5) NOT NULL AUTO_INCREMENT UNIQUE KEY,
+	name VARCHAR(100) NOT NULL,
+	description VARCHAR(100) NOT NULL,
+	size VARCHAR(100) NOT NULL,
+	price FLOAT(5) NOT NULL)
+)";	
 
 if ($conn->query($sql) === TRUE) {
     echo "Table MyGuests created successfully";

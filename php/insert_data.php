@@ -1,8 +1,8 @@
 <?php
-$servername = "<servername>";
-$username = "<username>";
-$password = "<password>";
-$dbname = "<dbname>";
+$servername = "matt-smith-v4";
+$username = "inf124db063";
+$password = "wfnt59hFDjjZ";
+$dbname = "inf124db063";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -11,8 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "INSERT INTO MyGuests (firstname, lastname, email)
-VALUES ('John', 'Doe', 'john@example.com')";
+$sql = "";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";

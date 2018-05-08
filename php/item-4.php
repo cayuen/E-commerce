@@ -9,29 +9,23 @@
 	<div class="background-3">	
 		<!-- .................. HEADER ............... -->
 		<header>
-			<div class="logo">
-				<a href="index.html"><img src="../img/logo.png"></a>
-			</div>
 			<nav>
-				<a class="orange" href="cart.html">Cart</a>
-				<a class="orange" href="products.html">Products</a>
-				<a class="orange" href="team.html">Team</a>
-				<a class="orange" href="about.html">About</a>
-			</nav> 
+				<?php include 'nav-orange.php';?>
+			</nav>
 		</header>
 
 		<!-- .................. CONTENT ............... -->
 		<section>
-			<p class="page-title orange"><span>YOSEMITE SKY SILHOUETTE</span></p>
+			<p class="page-title orange"><span>COOKIE DRIP CAMPAIGN</span></p>
 			
 			<!-- Display of item (left: picture, right: description and form) -->
 			<table id="item-details"> <!-- Stored in a 1 x 2 table -->
 				<tr>
 					<td>
-						<img src = "../img/places-1.png"></a>
+						<img src = "../img/food-2.png"></a>
 					</td>
 					<td>
-						Produced on 1.5" canvas with glossy finish.<br>
+						Printed on 1/4" thick poster with a glossy finish.<br>
 						$18.99<br>
 						24" x 36"<br>
 
